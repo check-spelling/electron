@@ -482,7 +482,7 @@ describe('chromium feature', () => {
       const sentence = `long sentence which will take at least a few seconds to
           utter so that it's possible to pause and resume before the end`;
       const utter = new SpeechSynthesisUtterance(sentence);
-      // Create a dummy utterence so that speech synthesis state
+      // Create a dummy utterance so that speech synthesis state
       // is initialized for later calls.
       speechSynthesis.speak(new SpeechSynthesisUtterance());
       speechSynthesis.cancel();
