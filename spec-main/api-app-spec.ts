@@ -987,7 +987,7 @@ describe('app module', () => {
       it('gets the folder for recent files', () => {
         const recent = app.getPath('recent');
 
-        // We expect that one of our test machines have overriden this
+        // We expect that one of our test machines have overridden this
         // to be something crazy, it'll always include the word "Recent"
         // unless people have been registry-hacking like crazy
         expect(recent).to.include('Recent');
