@@ -233,7 +233,7 @@ describe('<webview> tag', function () {
 
       const types = JSON.parse(message);
       expect(types).to.include({
-        require: 'function', // arguments passed to it should be availale
+        require: 'function', // arguments passed to it should be available
         electron: 'undefined', // objects from the scope it is called from should not be available
         window: 'object', // the window object should be available
         localVar: 'undefined' // but local variables should not be exposed to the window
