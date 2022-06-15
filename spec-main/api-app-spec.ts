@@ -127,7 +127,7 @@ describe('app module', () => {
   });
 
   describe('app.isPackaged', () => {
-    it('should be false durings tests', () => {
+    it('should be false during tests', () => {
       expect(app.isPackaged).to.equal(false);
     });
   });
