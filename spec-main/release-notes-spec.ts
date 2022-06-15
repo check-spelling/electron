@@ -107,7 +107,7 @@ describe('release notes', () => {
   const oldTropFix = new Commit('8751f485c5a6c8c78990bfd55a4350700f81f8cd', 'fix: workaround for hang when preventDefault-ing nativeWindowOpen (#22749)');
 
   // a PR that has unusual note formatting
-  const sublist = new Commit('61dc1c88fd34a3e8fff80c80ed79d0455970e610', 'fix: client area inset calculation when maximized for framless windows (#25052) (#25216)');
+  const sublist = new Commit('61dc1c88fd34a3e8fff80c80ed79d0455970e610', 'fix: client area inset calculation when maximized for frameless windows (#25052) (#25216)');
 
   before(() => {
     // location of relase-notes' octokit reply cache
