@@ -60,9 +60,9 @@ app.whenReady().then(() => {
 
   // and load the index.html of the app.
   mainWindow.loadURL(`file://${__dirname}/index.html`)
-  mainWindow.loadURL('file://foo/bar', { userAgent: 'cool-agent', httpReferrer: 'greateRefferer' })
-  mainWindow.webContents.loadURL('file://foo/bar', { userAgent: 'cool-agent', httpReferrer: 'greateRefferer' })
-  mainWindow.webContents.loadURL('file://foo/bar', { userAgent: 'cool-agent', httpReferrer: 'greateRefferer', postData: [{ type: 'rawData', bytes: Buffer.from([123]) }] })
+  mainWindow.loadURL('file://foo/bar', { userAgent: 'cool-agent', httpReferrer: 'greatReferrer' })
+  mainWindow.webContents.loadURL('file://foo/bar', { userAgent: 'cool-agent', httpReferrer: 'greatReferrer' })
+  mainWindow.webContents.loadURL('file://foo/bar', { userAgent: 'cool-agent', httpReferrer: 'greatReferrer', postData: [{ type: 'rawData', bytes: Buffer.from([123]) }] })
 
   mainWindow.webContents.openDevTools()
   mainWindow.webContents.toggleDevTools()
