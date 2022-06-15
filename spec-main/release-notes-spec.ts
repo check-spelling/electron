@@ -52,7 +52,7 @@ class GitFake {
       const b: string = args[2]!;
       stdout = this.mergeBase(a, b);
     } else if (args.length === 3 && args[0] === 'log' && args[1] === '--format=%H') {
-      // exepcted form: `git log --format=%H branchName
+      // expected form: `git log --format=%H branchName
       const branch: string = args[2]!;
       stdout = this.branches[branch].map((commit: Commit) => commit.sha1).join('\n');
     } else if (args.length > 1 && args[0] === 'log' && args.includes('--format=%H,%s')) {
