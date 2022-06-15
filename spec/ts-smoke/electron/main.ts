@@ -513,7 +513,7 @@ dialog.showOpenDialog(win3, {
 const ret = globalShortcut.register('ctrl+x', () => {
   console.log('ctrl+x is pressed')
 })
-if (!ret) { console.log('registerion fails') }
+if (!ret) { console.log('registration fails') }
 
 // Check whether a shortcut is registered.
 console.log(globalShortcut.isRegistered('ctrl+x'))
