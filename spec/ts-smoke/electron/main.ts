@@ -940,7 +940,7 @@ app.whenReady().then(() => {
 
   appIcon.displayBalloon({
     title: 'Hello World!',
-    content: 'This the the balloon content.',
+    content: 'This is the balloon content.',
     iconType: 'error',
     icon: 'path/to/icon',
     respectQuietTime: true,
