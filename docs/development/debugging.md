@@ -25,7 +25,7 @@ See [logging.h](https://chromium.googlesource.com/chromium/src/base/+/refs/heads
 
 ## Printing Stacktraces
 
-Chromium contains a helper to print stack traces to console without interrrupting the program.
+Chromium contains a helper to print stack traces to console without interrupting the program.
 
 ```cpp
 #include "base/debug/stack_trace.h"
