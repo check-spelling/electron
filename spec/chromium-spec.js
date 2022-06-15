@@ -358,7 +358,7 @@ describe('chromium feature', () => {
       });
     });
 
-    it('requesting persitent quota works', async () => {
+    it('requesting persistent quota works', async () => {
       const grantedBytes = await new Promise(resolve => {
         navigator.webkitPersistentStorage.requestQuota(1024 * 1024, resolve);
       });
