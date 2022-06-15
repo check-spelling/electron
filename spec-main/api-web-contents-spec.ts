@@ -247,7 +247,7 @@ describe('webContents module', () => {
         const result = await w.webContents.executeJavaScript(code);
         expect(result).to.equal(expected);
       });
-      it('resolves the returned promise with the result if the code returns an asyncronous promise', async () => {
+      it('resolves the returned promise with the result if the code returns an asynchronous promise', async () => {
         const result = await w.webContents.executeJavaScript(asyncCode);
         expect(result).to.equal(expected);
       });
