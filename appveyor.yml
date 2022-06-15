@@ -12,7 +12,7 @@
 #      Is used in some publishing scripts, but does NOT affect the Electron binary.
 #      Must match 'target_cpu' passed to "GN_EXTRA_ARGS" and "NPM_CONFIG_ARCH" value.
 #  - "UPLOAD_TO_STORAGE" Set it to '1' upload a release to the Azure bucket.
-#      Otherwise the release will be uploaded to the Github Releases.
+#      Otherwise the release will be uploaded to the GitHub Releases.
 #      (The value is only checked if "ELECTRON_RELEASE" is defined.)
 #
 # The publishing scripts expect access tokens to be defined as env vars,
