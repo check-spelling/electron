@@ -496,7 +496,7 @@ describe('app module', () => {
       expect(window.id).to.equal(w.id);
     });
 
-    it('should emit browser-window-blur event when window is blured', async () => {
+    it('should emit browser-window-blur event when window is blurred', async () => {
       const emitted = emittedOnce(app, 'browser-window-blur');
       w = new BrowserWindow({ show: false });
       w.emit('blur');
