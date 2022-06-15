@@ -459,7 +459,7 @@ describe('chromium feature', () => {
 
   describe('window.history', () => {
     describe('window.history.go(offset)', () => {
-      it('throws an exception when the argumnet cannot be converted to a string', () => {
+      it('throws an exception when the argument cannot be converted to a string', () => {
         expect(() => {
           window.history.go({ toString: null });
         }).to.throw('Cannot convert object to primitive value');
