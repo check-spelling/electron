@@ -110,7 +110,7 @@ describe('release notes', () => {
   const sublist = new Commit('61dc1c88fd34a3e8fff80c80ed79d0455970e610', 'fix: client area inset calculation when maximized for frameless windows (#25052) (#25216)');
 
   before(() => {
-    // location of relase-notes' octokit reply cache
+    // location of release-notes' octokit reply cache
     const fixtureDir = path.resolve(__dirname, 'fixtures', 'release-notes');
     process.env.NOTES_CACHE_PATH = path.resolve(fixtureDir, 'cache');
   });
