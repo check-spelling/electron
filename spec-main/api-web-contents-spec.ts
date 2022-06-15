@@ -883,7 +883,7 @@ describe('webContents module', () => {
 
   describe('getOSProcessId()', () => {
     afterEach(closeAllWindows);
-    it('returns a valid procress id', async () => {
+    it('returns a valid process id', async () => {
       const w = new BrowserWindow({ show: false });
       expect(w.webContents.getOSProcessId()).to.equal(0);
 
