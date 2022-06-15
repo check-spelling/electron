@@ -634,7 +634,7 @@ describe('<webview> tag', function () {
   });
 
   describe('will-navigate event', () => {
-    it('emits when a url that leads to oustide of the page is clicked', async () => {
+    it('emits when a url that leads to outside of the page is clicked', async () => {
       loadWebView(webview, {
         src: `file://${fixtures}/pages/webview-will-navigate.html`
       });
